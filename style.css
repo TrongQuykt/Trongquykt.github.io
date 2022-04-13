@@ -12,20 +12,16 @@ html {
 }
 
 :root {
-    --white-color: rgb(255, 255, 255);
-    --bg-main: #ffffff;
+    --white-color: #fff;
+    --bg-main: #e3edf7;
     --bg-dark: #303234;
     --primary-color: #31344b;
     --text-color: #777777;
     --text-color-dark: #B0B3B8;
     --blue-color: #1877f2;
     --blue-color-2: #e9f5ff;
-    --outer-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
-    --outer-shadow-o: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-        -6px -6px 10px -1px rgba(255, 255, 255, 0.7), inset 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-       inset -6px -6px 10px -1px rgba(255, 255, 255, 0.7)
-       ;
+    --outer-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px hsl(209deg 58% 64%);
+    --outer-shadow-o: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px hsl(209deg 100% 72%);
     --outer-shadow-dark: 6px 6px 10px -1px rgba(0, 0, 0, 0.3),
         -6px -6px 10px -1px rgba(255, 255, 255, 0.1);
     --outer-shadow-dark-o: 6px 6px 10px -1px rgba(0, 0, 0, 0.3),
@@ -68,7 +64,7 @@ html {
     justify-content: center;
     background: var(--white-color);
     border-radius: 7px;
-    background: var(--bg-main);
+    background: #c9f5ff;
     box-shadow: var(--outer-shadow);
     transition: all .3s linear;
     -moz-transition: all .3s linear;
