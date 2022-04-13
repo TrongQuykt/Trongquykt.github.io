@@ -34,7 +34,7 @@ html {
     --icon-fb: #4267B2;
     --icon-insta: #FB3958;
     --icon-github: #333;
-    --icon-youtube: #ff0000;
+    --icon-youtube: #FF0000;
     --icon-tiktok: #000;
 }
 
@@ -255,7 +255,6 @@ html {
     color: var(--blue-color);
 
 }
-
 .link__icon .fab {
     font-size: 2.5rem;
 }
@@ -275,7 +274,6 @@ html {
 .link__icon .fa-tiktok {
     color: var(--icon-tiktok);
 }
-
 .toggle {
     position: absolute;
     display: flex;
