@@ -12,8 +12,8 @@ html {
 }
 
 :root {
-    --white-color: rgb(255, 255, 255);
-    --bg-main: #6097ce;
+    --white-color: rgba(255, 255, 255, 0.784);
+    --bg-main: #ffffff;
     --bg-dark: #303234;
     --primary-color: #31344b;
     --text-color: #777777;
