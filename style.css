@@ -13,8 +13,16 @@ html {
 
 :root {
     --white-color: #fff;
-    --bg-main: #e3edf7;
+    /* --bg-main: #e3edf7; */
     --bg-dark: #303234;
+    background-image: linear-gradient(
+    45deg,
+    rgb(65, 88, 208) 0%, 
+	rgb(220,20,60) 25%,
+    rgb(200, 80, 192) 50%,
+	rgb(0,255,255) 75%,
+    rgb(255, 204, 112) 100%
+  	);
     --primary-color: #31344b;
     --text-color: #777777;
     --text-color-dark: #B0B3B8;
