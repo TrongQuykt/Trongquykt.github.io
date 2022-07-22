@@ -24,10 +24,10 @@ html {
     rgb(255, 204, 112) 100%
   	);  */
       background: linear-gradient(
-        45deg, #833ab4,
-        rgb(129, 65, 208),
-        rgb(0,255,255),
-        #fd1d1d,
+        45deg, #4662f1,
+        #b850c8,
+        #70ffb0,
+        #06daff,
         rgb(255, 204, 112),
         #fcb045
     );
