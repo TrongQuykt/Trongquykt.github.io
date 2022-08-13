@@ -23,19 +23,16 @@ html {
 	rgb(0,255,255) 75%,
     rgb(255, 204, 112) 100%
   	);  */
+
+      
       background: linear-gradient(
-        45deg, #4662f1,
-        #b850c8,
-        #70ffb0,
-        #06daff,
-        rgb(255, 204, 112),
-        #fcb045
+        45deg, #6e40aa, #be3caf, #fe4b83, #ff7747, #e3b62f, #b0ef5a, #53f666, #1edfa2, #23acd8, #4c6fdc, #4c6fdc
     );
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    background-size: 400% 400%;
-    animation: animate 10s infinite ease-in-out;
+    background-size: 500% 500%;
+    animation: animate 12s infinite ease-in-out;
     --primary-color: #31344b;
     --text-color: #777777;
     --text-color-dark: #B0B3B8;
